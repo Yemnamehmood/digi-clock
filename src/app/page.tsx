@@ -19,9 +19,9 @@ export default function DigitalClock() {
   };
 
   const formatTime = (date: Date) => {
-    let hours = date.getHours();
-    let minutes = date.getMinutes();
-    let seconds = date.getSeconds();
+    let hours = date.getHours(); 
+    const minutes = date.getMinutes(); 
+    const seconds = date.getSeconds(); 
     const ampm = hours >= 12 ? 'PM' : 'AM';
 
     if (!is24Hour) {
