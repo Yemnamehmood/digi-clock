@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# Digital Clock Project
 
-First, run the development server:
+This is a digital clock web application built using **Next.js**, **TypeScript**, and **CSS**. It displays the current time in hours, minutes, and seconds, and includes an option to toggle between 12-hour and 24-hour formats. The project is designed with a clean, modern interface and responsive layout for an optimal experience across all devices, including mobile.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Real-time clock**: Displays the current time and updates every second.
+- **12-hour/24-hour toggle**: Users can switch between 12-hour and 24-hour formats.
+- **Responsive design**: Adapted for both desktop and mobile screens.
+- **Beautiful UI**: Styled with CSS to provide an appealing and professional look, including custom background colors and a sleek clock interface.
+- **Footer**: Includes a footer with copyright information.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: Used for both frontend and backend functionality.
+- **TypeScript**: Ensures type safety and reliability in the codebase.
+- **CSS Styling**: Custom styles are applied globally to achieve an attractive design and responsive layout.
 
-## Learn More
+## How to Run the Project
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository from GitHub.
+2. Install the necessary dependencies using a package manager like `npm` or `yarn`.
+3. Run the project locally with the development server.
+4. Access the clock application via your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Enhancements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Add user preferences to store the last used time format (12-hour or 24-hour).
+- Include additional styling themes that users can switch between.
+- Display the date alongside the time for a more comprehensive clock experience.
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is licensed under the MIT License. Feel free to use, modify, and distribute it as needed.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+This project was created by **Yemna Mehmood**.
